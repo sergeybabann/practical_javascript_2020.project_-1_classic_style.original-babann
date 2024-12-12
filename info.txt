@@ -1,8 +1,0 @@
-git repo: 
-
-https://github.com/sergeybabann/practical_javascript_2020.project_-1_classic_style.original-babann
-
-video stop: 003 Работа с модальными окнами  - 5.02
-
-
-lesson complete: 002 Настраиваем сборку проекта и разбираемся с ТЗ
