@@ -13864,14 +13864,19 @@ window.addEventListener('DOMContentLoaded', () => {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 const modals = () => {
-  function bindModal(trigger, modal, close) {
-    trigger.addEventListener('click', e => {
-      if (e.target) {
-        e.preventDefault();
-      }
-      modal.style.display = 'block';
-      document.body.style.overflow = 'hidden';
-      // document.body.classList.add('modal-open')
+  function bindModal(triggerSelector, modalSelector, closeSelector) {
+    const trigger = document.querySelectorAll(triggerSelector),
+      modal = document.querySelector(modalSelector),
+      close = document.querySelector(closeSelector);
+    trigger.forEach(item => {
+      item.addEventListener('click', e => {
+        if (e.target) {
+          e.preventDefault();
+        }
+        modal.style.display = 'block';
+        document.body.style.overflow = 'hidden';
+        // document.body.classList.add('modal-open')
+      });
     });
     close.addEventListener('click', () => {
       modal.style.display = 'none';
@@ -13886,10 +13891,7 @@ const modals = () => {
       }
     });
   }
-  const callEngineerBtn = document.querySelector('.popup_engineer_btn'),
-    modalEngineer = document.querySelector('.popup_engineer'),
-    modalEngineerClose = document.querySelector('.popup_engineer .popup_close');
-  bindModal(callEngineerBtn, modalEngineer, modalEngineerClose);
+  bindModal('.popup_engineer_btn', '.popup_engineer', '.popup_engineer .popup_close');
 };
 /* harmony default export */ __webpack_exports__["default"] = (modals);
 
