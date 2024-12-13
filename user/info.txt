@@ -6,3 +6,76 @@ video stop: 003 Работа с модальными окнами  - 17.24
 
 
 lesson complete: 
+
+
+
+
+
+------- it incubator webinar -------
+
+сообщество
+
+https://t.me/natti_jun_front_chat
+
+
+чаты:
+https://t.me/ItIncubatorLive
+
+
+
+рефакторинг фаулера - книгу читать
+
+для фронтендера
+localstorage 
+indexedDB
+clickhouse
+
+Static Pages
+SSR
+
+для backend
+outbox pattern
+
+
+----------------------------
+backlog
+
+atlassian jira
+
+scrum - методологии
+
+goDaddy - зарегиться
+
+ci/cd - надо знать
+
+docker image - знать
+docker hub
+
+jenkins
+
+cubernetes 
+
+solid 
+ddd 
+grasp 
+dry 
+tdd
+
+
+frontend 
+electron
+swift ui
+REST API
+validations rules 
+view model mapping
+authentication/authorization 
+ABAC / RBAC 
+normalization / denormalization
+
+
+qrCode 
+https://qr.me-qr.com/aIYf2qRW
+
+рынок вакансий для джунов американский
+indeed.com
+

@@ -59,3 +59,5 @@ function bindModal(trigger, modal, close) - будет отвечать за п�
 
 
 
+
+
