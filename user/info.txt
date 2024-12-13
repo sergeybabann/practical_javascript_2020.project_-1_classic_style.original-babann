@@ -2,10 +2,10 @@ git repo:
 
 https://github.com/sergeybabann/practical_javascript_2020.project_-1_classic_style.original-babann
 
-video stop: 003 Работа с модальными окнами  - 25.49
+video stop: 
 
 
-lesson complete: 
+lesson complete: 003 Работа с модальными окнами
 
 
 
